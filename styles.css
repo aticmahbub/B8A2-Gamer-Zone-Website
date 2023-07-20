@@ -38,7 +38,8 @@
 
 .white-text,
 .footer-menu .men ul li,
-.terms-conditions .terms ul li{
+.footer-menu .men ul li a
+{
     color: #FFF;
 }
 
@@ -278,8 +279,12 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
 
 .game-buttons-container {
     display: grid;
-    column-gap: 100px;
-grid-template-columns: repeat(5, 200px);
+    column-gap:50px;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+grid-template-columns: repeat(5, 320px);
 
 
     }
@@ -287,7 +292,6 @@ grid-template-columns: repeat(5, 200px);
     .game-button-title{
 
         color: #0B0223;
-font-family: Work Sans;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -300,7 +304,7 @@ line-height: normal;
     .game-button{
         display: flex;
         gap: 16px;
-        padding: 28px 15px;
+        padding: 15px 28px;
         border-radius: 50px;
         background: #FFF;    }
 
@@ -310,8 +314,6 @@ line-height: normal;
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-font-family: Work Sans;
-font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -351,16 +353,20 @@ background-color: #0B0223;
     list-style: none;
 
 }
-.footer-menu .men ul li{
+
+.terms-conditions .terms ul li a,
+.footer-menu .men ul li a{
     font-weight: 600;
     font-size: 1.2rem;
-    
+text-decoration: none;
 }
 .copyright,
+.terms-conditions .terms ul li a,
 .terms-conditions .terms ul li{
     font-size: 1rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.60);
+    text-align: center;
 
 }
 
