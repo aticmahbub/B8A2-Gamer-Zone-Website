@@ -5,6 +5,24 @@
   *{
     font-family: 'Work Sans', sans-serif;
   }
+
+
+/*shared styles*/
+.btn-primary{
+    color: #FFF;
+font-size: 1.1rem;
+font-weight: 600;
+text-transform: uppercase;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+padding: 21px 40px;
+border: 0;
+}
+
+.heading-text{
+    font-size: 48px;
+    font-weight: 700;
+}
 /*navbar styles*/
 .navbar {
     display: flex;
@@ -18,6 +36,8 @@
 
 
 .left-nav{
+background-image: image();
+
 display: flex;
 gap: 20px;
 height: 40px;
@@ -27,6 +47,19 @@ align-items: center;
 
 .left-nav img{
     width: 86.041px;
+}
+
+.GOAT{
+    font-size: 95px;
+    font-weight: 800;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.go-rogue{
+    background: #4EC5F7;
 }
 
 .right-nav{
@@ -54,3 +87,30 @@ align-items: center;
 background: rgba(11, 2, 35, 0.10);
 }
 
+
+/*banner styles*/
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    max-height: 700px;
+
+}
+
+.left-banner{
+display: flex;
+flex-direction: column;
+}
+
+.right-banner img{
+
+    width: 100%;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.icon-list img{
+    width: 24px;
+    height: 24px;
+}
