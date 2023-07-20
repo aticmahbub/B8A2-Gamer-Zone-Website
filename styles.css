@@ -9,22 +9,48 @@
 .navbar {
     display: flex;
     justify-content: space-around;
+    height: 130px;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
 
 .left-nav{
 display: flex;
+gap: 20px;
+height: 40px;
+align-items: center;
 
 }
 
 .left-nav img{
     width: 86.041px;
-height: 40px;
+}
+
+.right-nav{
+
+    display: flex;
+    align-items: center;
+    height: 40px;
+
 }
 
 .right-nav ul {
     display: flex;
+    gap: 32px;
+    height: 40px;
 
     list-style: none;
 }
+
+.bordered{
+    display: flex;
+    gap:23px;
+    align-items: center;
+    padding: 16px 24px;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+
