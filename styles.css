@@ -37,6 +37,7 @@
 
 
 .white-text,
+
 .footer-menu .men ul li,
 .footer-menu .men ul li a
 {
@@ -90,6 +91,10 @@ margin-bottom: 140px;
 
 .instant-text{
     text-align: right;
+}
+.heading-link-text a{
+    text-decoration: none;
+
 }
 /*navbar styles*/
 .navbar {
