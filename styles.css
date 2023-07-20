@@ -1,0 +1,15 @@
+/*navbar styles*/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-nav{
+display: flex;
+}
+
+.right-nav ul {
+    display: flex;
+
+    list-style: none;
+}
